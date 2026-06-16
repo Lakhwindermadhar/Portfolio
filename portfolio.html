@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakhwinder Madhar Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="portfolio.js"></script>
+  <script src="https://kit.fontawesome.com/d6a9084e8b.js" crossorigin="anonymous"></script>
+  <body>
+    <header>
+    <div id="header">
+      <div class="container">
+        <nav>
+        <p>Lakhwinder Madhar Portfolio</p>
+        <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+    </div>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+            Hi, My name is <span class="purple">Lakhwinder Madhar</span>
+            <div> and I am a passionate</div>
+            <span id="element"></span>
+        </div>
+    <div class="rightSection">
+        <img src="images/profile3.jpg" alt="">
+    </div>
+    </section> 
+    </main>
+    <!-----------------------------------------------------about------------------------------------------------->
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+         <img src="images/pg.png" width="250px" height="500px">
+        </div>
+          <div class="about-col-2">
+            <h1 class="sub-title"> About Me</h1>
+            <p>Highly skilled React Front-End Developer with a strong foundation in building dynamic, responsive, and user-centric web applications. Proficient in leveraging React.js and its ecosystem, including Redux, React Router, and Context API, to develop modular and maintainable front-end architectures. Expertise in integrating RESTful APIs, optimizing performance, and ensuring cross-browser compatibility. Passionate about creating seamless user experiences with a keen eye for design and accessibility standards. Adept at collaborating in Agile environments and committed to delivering high-quality, scalable solutions that align with business objectives.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing web/app interface</li>
+                <li><span>Web development</span><br> Web app development</li>
+                <li><span> App development</span><br> Building Andriod/iOS apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>IT BizTek Managed Services</span><br>Software Developer</li>
+                <li><span> Streamline IT Services</span><br> Software Developer</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Humber College</span><br>Engineering</li>
+                <li><span>ST. Soldier Engineering College</span><br> Computer Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!---------------------------------------------------------services--------------------------------------------------------->
+  <div id="services">
+    <div class="conatiner">
+      <h1 class="sub-title"> My services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web design</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda recusandae, error quod illo sequi provident nemo quasi labore </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda recusandae, error quod illo sequi provident nemo quasi labore fuga! Quisquam fuga hic natus incidunt voluptatum magnam vel vero officia!</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda recusandae, error quod illo sequi provident nemo quasi labore fuga! Quisquam fuga hic natus incidunt voluptatum magnam vel vero officia!</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!---------------------------portfolio-->
+<div id="portfolio">
+<div class="container">
+  <h1 class="sub-title">My Work</h1>
+  <div class="work-list">
+    <div class="work">
+      <img src="images/tic tac toe.png">
+      <div class="layer">
+        <h3>Online Game</h3>
+        <p>A stylish, interactive Tic-Tac-Toe game with a modern UI and smooth gameplay. </p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/project image 1.png">
+      <div class="layer">
+        <h3>Music App</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati animi mollitia rerum placeat quam eaque possimus deserunt</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/project image 1.png">
+      <div class="layer">
+        <h3>Online Shopping App</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati animi mollitia rerum placeat quam eaque possimus deserunt, omnis beatae optio assumenda</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="btn"> See more</a>
+</div>
+</div>
+
+<!-- -------------contact-------------- -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h2 class="sub-title">Contact Me</h2>
+        <p><i class="fa-solid fa-paper-plane"></i>Lakhwindermadhar95@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>6479268196</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <a href="Lakhwinder__Madhar___Front end developer.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name=" Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright@Lakhwinder Madhar<i class="fa-solid fa-heart"></i></p>
+  </div>
+ </div>
+
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'UI/UX Designer','App designer'],
+      typeSpeed: 50,
+    });
+  </script>
+    
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu= document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+    </script>
+  </body>
+</html>
